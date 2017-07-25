@@ -1,0 +1,81 @@
+*{
+    padding :0;
+    margin:0;
+}
+.header{
+    height: 25px;
+    text-align: center;
+    background-color: #29AEDE;
+    padding-top: 15px;
+}
+.container{
+    text-align: center;
+}
+.div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    background: #DEA25D;
+    margin-top: 50px;
+
+}
+.img{
+    background-image:url("../images/blackCoffee.png");
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image:url("../images/milkCoffee.png");
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image:url("../images/greenCoffee.png");
+    background-repeat: no-repeat;
+}
+.sugar{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-image:url("../images/sugar.png");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+}
+.img:hover{
+    background-color: gray;
+}
+.img2:hover{
+    background-color: gray;
+}
+.img3:hover{
+    background-color: gray;
+}
+.sugar:hover{
+    background-color: gray;
+    color: gray;
+}
+.titlemon{
+    margin-bottom: 25px;
+    color: red;
+}
+.mon>p{
+    margin:10px;
+    border: 1px solid black;
+    display: inline;
+    padding:10px;
+    border-radius: 100%;
+    background-color: #DEA25D;
+}
+.mon>p:hover{
+    color: gray;
+    text-decoration: underline;
+}
+img{
+    width: 30px;
+    height: 30px;
+    display: inline;
+}

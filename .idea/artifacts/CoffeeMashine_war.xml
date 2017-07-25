@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="CoffeeMashine:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CoffeeMashine.war">
+      <element id="artifact" artifact-name="CoffeeMashine:war exploded" />
+    </root>
+  </artifact>
+</component>
